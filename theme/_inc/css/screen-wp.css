@@ -1,0 +1,122 @@
+body.oqp div#item-header{
+	overflow:hidden;
+}
+body.oqp div#item-header div#item-header-content {
+    margin-left: 170px;
+}
+body.oqp div#item-header div#item-header-content h2{
+	clear:inherit;
+	margin-bottom: 5px;
+	font-size: 28px;
+	line-height: 120%;
+	margin: 0 0 15px;
+}
+
+
+body.oqp div#item-header div#item-meta {
+    color: #AAAAAA;
+    font-size: 14px;
+    margin: 15px 0 5px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+body.oqp div#item-header .entry-summary {
+	padding:0;
+}
+
+
+.item-list-tabs{
+	font-size: 0.8em;
+}
+
+/*REMOVE WP STYLE*/
+.entry-header .comments-link a {
+	background:inherit;
+	position:inherit;
+	line-height: inherit;
+}
+
+/*FROM BP*/
+
+
+span.activity {
+    background-color:#FFEAA6;
+    border: 1px solid #E1CA82;
+    border-radius: 3px 3px 3px 3px;
+    font-weight: normal;
+    margin-top: 3px;
+    text-decoration: none;
+
+    display: inline-block;
+    font-size: 11px;
+    opacity: 0.8;
+    padding: 1px 8px;
+}
+
+#oqp-search-menu{
+	/*margin: 25px -19px 20px;*/
+        margin-bottom:25px;
+}
+
+#oqp_keywords {
+	width:100%;
+}
+#oqp-simple-search > div {
+	width:280px;
+}
+#oqp-search-menu #oqp-simple-search input[type="text"] {
+    width: 220px;
+}
+
+.generic-button a,a.generic-button{
+    background: -moz-linear-gradient(center top , #FFFFFF 0%, #EDEDED 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #777;
+    cursor: pointer;
+    font: 12px/14px Arial,Tahoma,Verdana,sans-serif;
+    outline: medium none;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.generic-button a:hover,a.generic-button:hover{
+    background: -moz-linear-gradient(center top , #FFFFFF 0%, #E0E0E0 100%) repeat scroll 0 0 transparent;
+    color: #555;
+}
+
+
+
+
+
+div#message p {
+    -moz-border-radius: 3px 3px 3px 3px;
+    background: none repeat scroll 0 0 #FFF9DB;
+    border-bottom: 1px solid #FFE8C4;
+    border-right: 1px solid #FFE8C4;
+    color: #FFA200;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 6px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+/*PAGINATION*/
+div.pagination{
+    border: medium none;
+    color: #888888;
+    font-size: 11px;
+    height: 19px;
+    margin-bottom:10px;
+    padding:10px;
+}
+div.pagination .pag-count {
+    float: left;
+}
+div.pagination .pagination-links {
+    float: right;
+}

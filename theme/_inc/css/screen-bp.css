@@ -1,0 +1,18 @@
+/*LOOP*/
+.archive-oqp .hentry {
+    margin: 0 0 0.5em;
+}
+
+
+.archive-oqp .hentry footer.entry-meta {
+    clear: both;
+    color: #666666;
+    font-size: 12px;
+    line-height: 18px;
+    display: block;
+}
+
+.archive-oqp .hentry .entry-meta a {
+    font-weight: bold;
+    text-decoration: none;
+}
